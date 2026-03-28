@@ -358,19 +358,17 @@
     color: var(--text-light);
   }
  
-  .page-footer {
+.page-footer {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px 50px 14px 50px;
+  padding: 12px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid var(--border);
   background: white;
-  min-height: 48px;
-  z-index: 5;
 }
   }
   .page-footer-text {
@@ -378,11 +376,9 @@
     color: var(--text-light);
     letter-spacing: 0.5px;
   }
-  .page-number {
+.page-number {
   width: 28px;
   height: 28px;
-  min-width: 28px;
-  min-height: 28px;
   border-radius: 50%;
   background: var(--navy);
   color: white;
@@ -392,7 +388,8 @@
   font-size: 10px;
   font-weight: 700;
   line-height: 1;
-  flex-shrink: 0;
+  position: relative;
+  top: -6px;
 }
  
   /* ============ SUBSECTION STYLES ============ */
