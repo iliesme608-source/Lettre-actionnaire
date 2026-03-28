@@ -886,7 +886,63 @@
     font-size: 11px;
     color: rgba(255,255,255,0.6);
   }
- 
+   /* ============ MARKETING TABLE (CONSigne TOUR 9) ============ */
+  .marketing-table-wrap {
+    margin: 18px 0 22px 0;
+    border: 1px solid #BFC7D1;
+    border-radius: 0;
+    overflow: hidden;
+    background: white;
+  }
+
+  .marketing-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 10.5px;
+  }
+
+  .marketing-table th,
+  .marketing-table td {
+    border: 1px solid #8E98A6;
+    padding: 10px 8px;
+    vertical-align: top;
+    line-height: 1.45;
+  }
+
+  .marketing-table thead th {
+    background: #E6E8EB;
+    color: #2D3748;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10.5px;
+  }
+
+  .marketing-table thead th:first-child {
+    width: 13%;
+    background: #F0F1F3;
+  }
+
+  .marketing-table tbody td:first-child {
+    font-weight: 700;
+    color: var(--navy);
+    background: #F7F7F8;
+    text-align: left;
+    width: 13%;
+  }
+
+  .marketing-table td {
+    color: var(--text-mid);
+    text-align: left;
+  }
+
+  .marketing-note {
+    font-size: 10px;
+    color: var(--text-light);
+    margin-top: 8px;
+    line-height: 1.5;
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
@@ -1016,6 +1072,7 @@
 </div>
  
 <!-- ==================== PAGE 3: PERSPECTIVES TOUR 9 ==================== -->
+<!-- ==================== PAGE 3: PERSPECTIVES TOUR 9 ==================== -->
 <div class="page" style="position:relative;">
   <div class="page-header">
     <div class="page-header-left">Lettre aux Actionnaires</div>
@@ -1026,10 +1083,54 @@
   <div class="page-body">
     <div class="section-tag">Perspectives</div>
     <div class="section-title">Perspectives Tour 9</div>
-    <div class="section-subtitle">Prévisions de résultats, consolidation et maximisation de la valeur</div>
+    <div class="section-subtitle">Situation au début du 9e tour, portefeuille produits et orientation marketing</div>
+
+    <div class="marketing-table-wrap">
+      <table class="marketing-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Technologies</th>
+            <th>Fonctionnalités</th>
+            <th>Prix</th>
+            <th>Publicité</th>
+            <th>Stratégie Marketing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>USA</td>
+            <td>Thermique, Hybride</td>
+            <td>Niveau d'équipement élevé sur les gammes clés afin de maintenir l'attractivité commerciale sans disperser les investissements.</td>
+            <td>Maintien d'un positionnement cohérent avec la qualité perçue et les marges visées sur nos segments historiques.</td>
+            <td>Budget publicitaire maintenu sur les modèles les plus performants afin de soutenir la visibilité et défendre nos parts de marché.</td>
+            <td>Consolider nos positions sur un marché historique, en privilégiant la rentabilité et la cohérence de l'offre.</td>
+          </tr>
+          <tr>
+            <td>Asie</td>
+            <td>Thermique, Hybride</td>
+            <td>Accent mis sur les modèles hybrides, mieux alignés avec l'évolution de la demande et notre stratégie de production.</td>
+            <td>Politique compétitive visant à soutenir les volumes tout en préservant les marges sur le marché le plus dynamique du portefeuille.</td>
+            <td>Communication ciblée sur les gammes à plus fort potentiel, avec un effort concentré sur les modèles les plus rentables.</td>
+            <td>Renforcer la compétitivité-prix et soutenir les volumes sur une zone de croissance majeure.</td>
+          </tr>
+          <tr>
+            <td>Europe</td>
+            <td>Hybride</td>
+            <td>Offre recentrée sur les véhicules les plus cohérents avec notre positionnement et les attentes du marché européen.</td>
+            <td>Prix ajustés pour rester compétitifs tout en valorisant la qualité perçue et l'amélioration progressive de notre efficacité logistique.</td>
+            <td>Publicité ciblée pour soutenir la demande sur un marché sélectif et concurrentiel, sans surinvestissement commercial.</td>
+            <td>Privilégier une approche sélective et rentable, appuyée par l'optimisation de l'axe Chine–Europe.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="marketing-note">
+        Ce tableau synthétise notre situation au début du 9e tour et nos choix de portefeuille produits et de promotion par marché, conformément à la consigne.
+      </div>
+    </div>
 
     <p class="text-body">
-      Le tour 9 constitue une étape clé de consolidation. Après une phase d'expansion puis d'optimisation, notre priorité est désormais de <strong>maximiser l'efficacité opérationnelle et la création de valeur à court terme</strong>, tout en sécurisant les acquis construits sur les huit premiers tours.
+      Le tour 9 constitue une étape de consolidation. Après une phase d'expansion puis d'optimisation, notre priorité est désormais de <strong>maximiser l'efficacité opérationnelle et la création de valeur à court terme</strong>, tout en sécurisant les acquis construits sur les huit premiers tours.
     </p>
 
     <div class="stat-row">
@@ -1046,11 +1147,11 @@
     </div>
 
     <p class="text-body">
-      Notre stratégie pour le tour 9 n'est pas une logique de rupture, mais de consolidation. Nous privilégions une gestion plus sélective des volumes, une meilleure allocation de nos capacités et une maîtrise renforcée de nos charges fixes. Cette orientation peut limiter le résultat net à court terme, mais elle renforce la qualité de la performance et la génération de cash en fin de simulation.
+      Notre logique pour le tour 9 n'est pas une logique de rupture, mais de consolidation. Nous privilégions une gestion plus sélective des volumes, une meilleure allocation de nos capacités industrielles et une maîtrise renforcée de nos charges fixes. Cette orientation peut limiter le résultat net à court terme, mais elle améliore la qualité de la performance et la génération de cash en fin de simulation.
     </p>
 
     <p class="text-body">
-      Concrètement, nos décisions sont alignées autour de trois leviers simples : ajuster l'outil industriel aux besoins réels, optimiser les flux logistiques sur nos axes les plus performants, et poursuivre la réduction des stocks résiduels afin d'améliorer notre besoin en fonds de roulement et de maximiser le free cash-flow.
+      Concrètement, nos décisions s'articulent autour de trois leviers simples : ajuster l'outil industriel aux besoins réels, optimiser les flux logistiques sur nos axes les plus performants, et poursuivre la réduction des stocks résiduels afin d'améliorer notre besoin en fonds de roulement et de maximiser le free cash-flow.
     </p>
 
     <div class="perspective-cards">
